@@ -9,7 +9,6 @@ import (
 
 	"github.com/bloXroute-Labs/solana-trader-client-go/transaction"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
-
 	"github.com/gagliardetto/solana-go"
 )
 
@@ -113,6 +112,7 @@ type SubmitOpts struct {
 type PostSubmitOpts struct {
 	SkipPreFlight          bool
 	FrontRunningProtection bool
+	FastBestEffort         bool
 	UseStakedRPCs          bool
 	AllowBackRun           bool
 	RevenueAddress         string
