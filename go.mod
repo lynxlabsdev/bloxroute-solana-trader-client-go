@@ -1,4 +1,4 @@
-module github.com/bloXroute-Labs/solana-trader-client-go
+module github.com/lynxlabsdev/bloxroute-solana-trader-client-go
 
 go 1.22.0
 
