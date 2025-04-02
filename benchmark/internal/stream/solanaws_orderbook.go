@@ -3,13 +3,13 @@ package stream
 import (
 	"context"
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	bin "github.com/gagliardetto/binary"
 	"github.com/gagliardetto/solana-go"
 	gserum "github.com/gagliardetto/solana-go/programs/serum"
 	solanarpc "github.com/gagliardetto/solana-go/rpc"
 	solanaws "github.com/gagliardetto/solana-go/rpc/ws"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark/internal/logger"
 	"go.uber.org/zap"
 )
 

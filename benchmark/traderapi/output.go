@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/output"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/stream"
 	gserum "github.com/gagliardetto/solana-go/programs/serum"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark/internal/output"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark/internal/stream"
 	"strconv"
 	"time"
 )

@@ -3,11 +3,11 @@ package stream
 import (
 	"context"
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
-	"github.com/bloXroute-Labs/solana-trader-client-go/utils"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark/internal/logger"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/provider"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/utils"
 	"strings"
 
 	"time"

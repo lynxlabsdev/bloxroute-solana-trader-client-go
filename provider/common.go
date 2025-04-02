@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bloXroute-Labs/solana-trader-client-go/transaction"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"github.com/gagliardetto/solana-go"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/transaction"
 )
 
 const (

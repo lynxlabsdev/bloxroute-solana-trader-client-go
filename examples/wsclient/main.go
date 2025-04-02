@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/transaction"
 	computebudget "github.com/gagliardetto/solana-go/programs/compute-budget"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/transaction"
 	"math/rand"
 	"os"
 	"sort"
@@ -13,10 +13,10 @@ import (
 	"github.com/gagliardetto/solana-go/programs/system"
 	"github.com/manifoldco/promptui"
 
-	"github.com/bloXroute-Labs/solana-trader-client-go/examples/config"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
-	"github.com/bloXroute-Labs/solana-trader-client-go/utils"
 	"github.com/bloXroute-Labs/solana-trader-proto/common"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/examples/config"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/provider"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/utils"
 
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	log "github.com/sirupsen/logrus"

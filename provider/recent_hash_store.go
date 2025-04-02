@@ -2,11 +2,12 @@ package provider
 
 import (
 	"context"
-	"github.com/bloXroute-Labs/solana-trader-client-go/connections"
-	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
-	log "github.com/sirupsen/logrus"
 	"sync"
 	"time"
+
+	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/connections"
+	log "github.com/sirupsen/logrus"
 )
 
 type blockHashProvider func(ctx context.Context) (*pb.GetRecentBlockHashResponse, error)

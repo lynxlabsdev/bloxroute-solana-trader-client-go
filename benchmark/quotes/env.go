@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/examples/config"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/examples/config"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/provider"
 )
 
 func traderClients(env string) (provider.HTTPClientTraderAPI, provider.WSClientTraderAPI, error) {

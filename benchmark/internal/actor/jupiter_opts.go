@@ -1,7 +1,7 @@
 package actor
 
 import (
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/provider"
 	"time"
 )
 

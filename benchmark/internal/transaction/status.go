@@ -3,10 +3,10 @@ package transaction
 import (
 	"context"
 	"errors"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/logger"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/utils"
 	"github.com/gagliardetto/solana-go"
 	solanarpc "github.com/gagliardetto/solana-go/rpc"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark/internal/logger"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark/internal/utils"
 	"time"
 )
 

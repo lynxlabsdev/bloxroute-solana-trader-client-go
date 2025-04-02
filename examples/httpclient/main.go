@@ -13,10 +13,10 @@ import (
 	"github.com/gagliardetto/solana-go/programs/system"
 	"github.com/manifoldco/promptui"
 
-	"github.com/bloXroute-Labs/solana-trader-client-go/examples/config"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
-	"github.com/bloXroute-Labs/solana-trader-client-go/transaction"
-	"github.com/bloXroute-Labs/solana-trader-client-go/utils"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/examples/config"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/provider"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/transaction"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/utils"
 
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"github.com/bloXroute-Labs/solana-trader-proto/common"

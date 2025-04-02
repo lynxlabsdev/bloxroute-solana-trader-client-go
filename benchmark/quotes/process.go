@@ -3,10 +3,10 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/actor"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/output"
-	"github.com/bloXroute-Labs/solana-trader-client-go/benchmark/internal/stream"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark/internal/actor"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark/internal/output"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/benchmark/internal/stream"
 	"os"
 	"sort"
 	"strconv"

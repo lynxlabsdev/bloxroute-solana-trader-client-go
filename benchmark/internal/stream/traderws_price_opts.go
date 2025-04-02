@@ -1,6 +1,6 @@
 package stream
 
-import "github.com/bloXroute-Labs/solana-trader-client-go/provider"
+import "github.com/lynxlabsdev/bloxroute-solana-trader-client-go/provider"
 
 type TraderWSPriceOpt func(s *tradeWSPrice)
 

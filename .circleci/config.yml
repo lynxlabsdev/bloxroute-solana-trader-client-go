@@ -5,12 +5,12 @@ executors:
       - image: cimg/go:1.21
     environment:
       GOPATH: /home/circleci/go
-      WORKSPACE: /home/circleci/go/src/github.com/bloXroute-Labs/solana-trader-client-go
+      WORKSPACE: /home/circleci/go/src/github.com/lynxlabsdev/bloxroute-solana-trader-client-go
       GOTRACEBACK: all
       RUN_TRADES: false
       RUN_SLOW_STREAM: false
       RUN_PERP_TRADES: true
-    working_directory: /home/circleci/go/src/github.com/bloXroute-Labs/solana-trader-client-go
+    working_directory: /home/circleci/go/src/github.com/lynxlabsdev/bloxroute-solana-trader-client-go
 jobs:
   init:
     executor: bxgo

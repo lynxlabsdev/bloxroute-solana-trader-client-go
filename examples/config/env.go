@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"github.com/bloXroute-Labs/solana-trader-client-go/provider"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/provider"
 	"os"
 	"strings"
 

@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bloXroute-Labs/solana-trader-client-go/connections"
-	"github.com/bloXroute-Labs/solana-trader-client-go/transaction"
-	"github.com/bloXroute-Labs/solana-trader-client-go/utils"
 	pb "github.com/bloXroute-Labs/solana-trader-proto/api"
 	"github.com/bloXroute-Labs/solana-trader-proto/common"
 	"github.com/gagliardetto/solana-go"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/connections"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/transaction"
+	"github.com/lynxlabsdev/bloxroute-solana-trader-client-go/utils"
 )
 
 func (w *WSClient) RecentBlockHash(ctx context.Context) (*pb.GetRecentBlockHashResponse, error) {
