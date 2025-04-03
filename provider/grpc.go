@@ -393,6 +393,11 @@ func (g *GRPCClient) PostSubmitV2(ctx context.Context, tx *pb.TransactionMessage
 		Transaction:            tx,
 		SkipPreFlight:          opts.SkipPreFlight,
 		FrontRunningProtection: &opts.FrontRunningProtection,
+		FastBestEffort:         &opts.FastBestEffort,
+		UseStakedRPCs:          &opts.UseStakedRPCs,
+		AllowBackRun:           &opts.AllowBackRun,
+		RevenueAddress:         &opts.RevenueAddress,
+		Sniping:                &opts.Sniping,
 	})
 }
 
